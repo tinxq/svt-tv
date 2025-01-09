@@ -1,6 +1,7 @@
 body {
-background-image: url("/photos/svtback.jpg"); 
-background-attachment: fixed;  
+background-image: url("/photos/svtback.jpg") ; 
+background-attachment: fixed ; 
+background-size: cover; 
 margin: 0;
 font-family: Arial, sans-serif;
 display: flex;
@@ -8,7 +9,7 @@ display: flex;
 .parent{
   display: grid;
   grid-template-areas:
-  "title title title"
+"title title title"
 " sidebar sidebar sidebar" 
 "container container container"
 " sidebar-left miniteen sidebar-right ";
@@ -129,17 +130,17 @@ transition: color 0.3s ease, transform 0.3s ease;
 text-align: left;
 }
 .title h1{
-  color: #ffffff;
-  font-size: 3em;
-  text-align: center;
+color: #ffffff;
+font-size: 3em;
+text-align: center;
 }
 p{
 
-  color: #dfd2d2;
-  font-size: 0.80em;
-  border-radius: 10px;
-  transition: color 0.3s ease, transform 0.3s ease;
-  text-align: center;
+color: #dfd2d2;
+font-size: 0.80em;
+border-radius: 10px;
+transition: color 0.3s ease, transform 0.3s ease;
+text-align: center;
 
 }
 h1{
