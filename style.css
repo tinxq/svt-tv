@@ -1,12 +1,14 @@
 body {
-background-color: rgb(29, 43, 43);
+background-color: rgb(0, 0, 0);
 margin: 0;
 font-family: Arial, sans-serif;
 display: flex;
 }
 .parent{
   display: grid;
-  grid-template-areas: " sidebar sidebar sidebar" 
+  grid-template-areas:
+  "title title title"
+" sidebar sidebar sidebar" 
 "container container container"
 " sidebar-left miniteen sidebar-right ";
 place-items: center;
@@ -50,6 +52,12 @@ font-family: fantasy;
   width: 120px;
   margin-top: 1px;
 } 
+.title{
+grid-area: title;
+
+
+
+}
 .container {
 background-image: url("/photos/bag2.jpg"); 
 background-attachment: fixed;  
@@ -98,19 +106,13 @@ place-items: center;
 }
 .miniteen img {
   width: 85px;
-  animation: myanimation 7s infinite ease-in; 
   margin-right: 15px;
+  transition: transform 5s ease;
   } 
 .miniteen img:hover{
- animation: mini 4s;
- animation-iteration-count: initial;
- animation-direction: alternate;
+ transform: scale(1.9);
 }
 
-.mini{
-background-color: rgba(21, 3, 3, 0.97);
-font-size: xx-large;
-}
 .card:hover {
 background-color: rgba(0, 0, 0, 0.685);
 transform: scale(1.05);
@@ -172,17 +174,6 @@ width: 300px;
 margin: 20px;
 border-radius: 40px;
 }
-@keyframes mini {
-  from{
-  box-shadow:0px 0px 80px #2b06cffa;
-
-  }
-  to{
-
-    box-shadow:0px 0px 70px #cf06cffa;
-    
-  }
-}
 
 .parent2{
   display: grid;
@@ -203,14 +194,6 @@ margin: 20px;
   height: 300px;
   width: 300px;
   margin: 20px;
-}
-.svtgoing{
-
-  color: #ffffff;
-  text-align: center;
-  animation: going-title 2s ;
-  animation-iteration-count: infinite;
-  animation-direction: initial;
 }
 @keyframes going-title{
 
