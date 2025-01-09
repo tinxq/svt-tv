@@ -4,6 +4,7 @@ body {
   background-repeat: no-repeat;
   margin: 0;
   font-family: Arial, sans-serif;
+  display : flex ;
   }
   .parent{
     display: grid;
@@ -132,6 +133,15 @@ body {
     border-radius: 10px;
     transition: color 0.3s ease, transform 0.3s ease;
     text-align: center;
+  }
+
+  .title{
+  display: flex;
+  justify-content: center;
+  }
+  .svtgoing{
+  display: flex;
+  justify-content: center;
   }
   p{
   
