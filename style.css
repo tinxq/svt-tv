@@ -1,14 +1,13 @@
-body {
+body{
 background-image: url("/photos/svtback.jpg") ; 
 background-attachment: fixed ; 
 background-size: cover; 
-margin: 0;
 font-family: Arial, sans-serif;
 display: flex;
 }
 .parent{
-  display: grid;
-  grid-template-areas:
+display: grid;
+grid-template-areas:
 "title title title"
 " sidebar sidebar sidebar" 
 "container container container"
@@ -18,7 +17,7 @@ margin: 0px;
 }
 
 .sidebar{ 
-background-color: #5c416c3e;
+background-color: #5b3e6b3e;
 display: flex; 
 grid-area:sidebar;
 text-align: center;
@@ -34,7 +33,7 @@ border-radius:300px;
 transition: transfom 0.3s ease;
 } 
   
- .sidebar img:hover {
+.sidebar img:hover {
 transform: scale(1.2);
 box-shadow:0px 0px 40px rgb(130, 117, 117);
 
@@ -136,7 +135,7 @@ text-align: center;
 }
 p{
 
-color: #dfd2d2;
+color: #ffffff;
 font-size: 0.80em;
 border-radius: 10px;
 transition: color 0.3s ease, transform 0.3s ease;
