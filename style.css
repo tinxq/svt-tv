@@ -1,7 +1,5 @@
 body{
-background-image: url("/photos/svtback.jpg") ; 
-background-attachment: fixed ; 
-background-size: cover; 
+background-color: rgb(0, 0, 0) ;  
 font-family: Arial, sans-serif;
 display: flex;
 }
@@ -15,9 +13,8 @@ grid-template-areas:
 place-items: center;
 margin: 0px;
 }
-
 .sidebar{ 
-background-color: #5b3e6b3e;
+background-color: #4d494f3c;
 display: flex; 
 grid-area:sidebar;
 text-align: center;
@@ -32,7 +29,6 @@ margin: 20px;
 border-radius:300px;
 transition: transfom 0.3s ease;
 } 
-  
 .sidebar img:hover {
 transform: scale(1.2);
 box-shadow:0px 0px 40px rgb(130, 117, 117);
