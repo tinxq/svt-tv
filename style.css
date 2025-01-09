@@ -2,6 +2,7 @@ body {
   background-image: url("photos/bag2.jpg");
   background-size: cover ;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   margin: 0;
   font-family: Arial, sans-serif;
   display : flex ;
