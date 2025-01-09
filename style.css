@@ -1,171 +1,227 @@
 body {
-  background-color: black;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  }
-  .parent{
-    display: grid;
-    grid-template-areas: " sidebar-left sidebar sidebar-right" 
-  "container container container"
-  " miniteen miniteen miniteen ";
-  }
-  .sidebar-left{
+background-color: rgb(29, 43, 43);
+margin: 0;
+font-family: Arial, sans-serif;
+}
+.parent{
+  display: grid;
+  grid-template-areas: " sidebar sidebar sidebar" 
+"container container container"
+" sidebar-left miniteen sidebar-right ";
+place-items: center;
+margin: 0px;
+}
+
+.sidebar{ 
+background-color: #3c34404e;
+display: flex; 
+grid-area:sidebar;
+text-align: center;
+width: 1200px;
+padding: 40px;
+place-items: center;
+}
+ .sidebar img {
+width: 120px;
+margin-bottom: 1px;
+margin: 20px;
+border-radius:300px;
+transition: transfom 0.3s ease;
+} 
+  
+ .sidebar img:hover {
+transform: scale(1.2);
+box-shadow:0px 0px 40px rgb(130, 117, 117);
+
+}
+.going{
+list-style: none;
+display: flex;
+
+}
+.going .year{
+
+font-size: larger;
+color: antiquewhite;
+font-family: fantasy;
+}
+.card img {
+  width: 120px;
+  margin-top: 1px;
+} 
+.container {
+background-image: url("/photos/bag2.jpg"); 
+background-attachment: fixed;  
+grid-area:container ;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+max-width: 1300px;
+margin: auto;
+padding: 20px;
+}
+
+.card {
+border-radius: 45px;
+height: 300px;
+width: 200px;
+margin: 20px;
+background: rgba(1, 9, 15, 0.466);
+text-align: center;
+padding: 20px;
+transform: scale(1.05);
+overflow: hidden;
+}
+
+.sidebar-left  {
   grid-area: sidebar-left;
-  background-color: rgb(85, 59, 88);
+  background-color: rgb(134, 137, 188);
+  width: 420px;
+  height: 360px;
   }
   .sidebar-right{
-    grid-area: sidebar-right;
-    background-color:  rgb(85, 59, 88);
-  
-  
+  background-color: #bfd096;
+  grid-area: sidebar-right;
+  width: 420px;
+  height:360px ; 
   }
-  
-  .sidebar{ 
-  display: flex; 
-  border-radius: 20%;
-  grid-area:sidebar;
-  display: flex;
-  background-color: rgba(37, 27, 52, 0.288);
-  text-align: center;
-  max-width: 1200px;
-  padding: 40px;
-  }
-   .sidebar img {
-  width: 120px;
-  margin-bottom: 1px;
-  margin: 10px;
-  border-radius:300px;
-  transition: transfom 0.3s ease;
+
+.miniteen{
+grid-area: miniteen;
+background-color: rgba(57, 30, 70, 0.244);
+width: 420px;
+height:360px;
+place-items: center;
+
+}
+.miniteen img {
+  width: 85px;
+  animation: myanimation 7s infinite ease-in; 
+  margin-right: 15px;
   } 
-    
-   .sidebar img:hover {
-  transform: scale(1.3);
-  
-  }
-  .card img {
-    width: 120px;
-    margin-top: 1px;
-  } 
-  .container {
-  background-image: url("photos/bag2.jpg");
-  background-size: cover ;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  grid-area:container ;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-  }
-  
-  .card {
-  border-radius: 45px;
-  height: 300px;
-  width: 200px;
-  margin: 20px;
-  background: rgba(0, 0, 0, 0.756);
-  text-align: center;
-  padding: 20px;
-  transform: scale(1.05);
-  overflow: hidden;
-  }
-  .miniteen{
-  display: flex;
-  grid-area: miniteen;
-  background-color: rgba(55, 19, 58, 0.256);
-  min-width: 150px;
-  overflow-x: scroll;
-  scroll-behavior: smooth;
-  padding: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 0px;
-  }
-  .miniteen img {
-    width: 120px;
-    margin-bottom: 1px;
-  
-    } 
-  .miniteen img:hover{
-   transform: scale(1.2);
-  }
-  
-  .mini{
-  background-color: rgba(21, 3, 3, 0.97);
-  font-size: xx-large;
-  }
-  .card:hover {
-  background-color: rgba(0, 0, 0, 0.256);
-  transform: scale(1.05);
-  background-image: url("");
-  background-size: cover;
-  background-position:center ;
-  }
-  
-  
-  .card h1 {
+.miniteen img:hover{
+ animation: mini 4s;
+ animation-iteration-count: initial;
+ animation-direction: alternate;
+}
+
+.mini{
+background-color: rgba(21, 3, 3, 0.97);
+font-size: xx-large;
+}
+.card:hover {
+background-color: rgba(0, 0, 0, 0.685);
+transform: scale(1.05);
+background-image: url("");
+background-size: cover;
+background-position:center ;
+}
+
+
+.card h1 {
+color: #ffffff;
+font-size: 0.90em;
+margin: 0 0 10px;
+padding: 0px;
+border-radius: 10px;
+transition: color 0.3s ease, transform 0.3s ease;
+text-align: center;
+margin-left: 40px;
+margin-right: 40px;
+text-shadow: 0px 0px 5px #cf06cffa;
+}
+
+ .card p{
+color: #ffffff;
+font-size: 0.80em;
+border-radius: 10px;
+transition: color 0.3s ease, transform 0.3s ease;
+text-align: left;
+}
+.title h1{
   color: #ffffff;
-  font-size: 0.90em;
+  font-size: 3em;
+  text-align: center;
+}
+p{
+
+  color: #dfd2d2;
+  font-size: 0.80em;
+  border-radius: 10px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  text-align: center;
+
+}
+h1{
+  color: #ffffff;
+  font-size: 1.5em;
   margin: 0 0 10px;
   padding: 0px;
   border-radius: 10px;
   transition: color 0.3s ease, transform 0.3s ease;
   text-align: center;
-  margin-left: 40px;
-  margin-right: 40px;
-  background-color: black;
-  }
-  
-   .card p{
-  color: #ffffff;
-  font-size: 0.80em;
-  border-radius: 10px;
-  transition: color 0.3s ease, transform 0.3s ease;
-  text-align: left;
-  }
-  .title h1{
-    color: #ffffff;
-    font-size: 3em;
-    margin: 0 0 10px;
-    padding: 0px;
-    border-radius: 10px;
-    transition: color 0.3s ease, transform 0.3s ease;
-    text-align: center;
-  }
-  .title{
-  display: flex;
-  justify-content: center;
-  }
-  .svtgoing{
-  display: flex;
-  justify-content: center;
-  }
- p{
-  
-    color: #ffffff;
-    font-size: 0.80em;
-    border-radius: 10px;
-    transition: color 0.3s ease, transform 0.3s ease;
-    text-align: center;
-  
-  }
+ 
+}
+.who{
+grid-area: who;
+background-color: rgba(22, 4, 12, 0.637) ;
+height: 300px;
+width: 300px;
+margin: 20px;
+border-radius: 40px;
+}
+@keyframes mini {
+  from{
+  box-shadow:0px 0px 80px #2b06cffa;
 
-  h1{
-    color: #ffffff;
-    font-size: 1.5em;
-    margin: 0 0 10px;
-    padding: 0px;
-    border-radius: 10px;
-    transition: color 0.3s ease, transform 0.3s ease;
-    text-align: center;
-   
   }
-  .who{
-  grid-area: who;
+  to{
+
+    box-shadow:0px 0px 70px #cf06cffa;
+    
+  }
+}
+
+.parent2{
+  display: grid;
+  grid-template-areas: "who wat wun";
+  margin: 0px;
+}
+.wat{
+grid-area: wat;
+background-color: beige ;
+height: 300px;
+width: 300px;
+margin: 20px;
+
+}
+.wun{
+  grid-area: wun;
   background-color: beige ;
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+.svtgoing{
+
+  color: #ffffff;
+  text-align: center;
+  animation: going-title 2s ;
+  animation-iteration-count: infinite;
+  animation-direction: initial;
+}
+@keyframes going-title{
+
+
+  from{
+    text-shadow:0px 2px 10px #b3ff00;
   
+    }
+    to{
   
-  }
+      text-shadow:0px 2px 10px #e70acefa;
+      
+    }
+
+}
