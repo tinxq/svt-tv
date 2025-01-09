@@ -137,11 +137,10 @@ body {
   }
 
   .title{
-  display: flex;
   justify-content: center;
   }
   .svtgoing{
-  display: flex;
+
   justify-content: center;
   }
   p{
