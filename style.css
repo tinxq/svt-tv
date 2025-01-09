@@ -1,5 +1,5 @@
 body {
-background-color: rgb(29, 43, 43);
+background-image: url("/photos/bag2.jpg") ;
 margin: 0;
 font-family: Arial, sans-serif;
 }
@@ -43,15 +43,13 @@ display: flex;
 
 font-size: larger;
 color: antiquewhite;
-font-family: fantasy;
+
 }
 .card img {
   width: 120px;
   margin-top: 1px;
 } 
-.container {
-background-image: url("/photos/bag2.jpg"); 
-background-attachment: fixed;  
+.container { 
 grid-area:container ;
 display: flex;
 flex-wrap: wrap;
@@ -143,6 +141,7 @@ text-align: left;
   color: #ffffff;
   font-size: 3em;
   text-align: center;
+  display: flex;
 }
 p{
 
@@ -151,7 +150,7 @@ p{
   border-radius: 10px;
   transition: color 0.3s ease, transform 0.3s ease;
   text-align: center;
-
+  display: flex;
 }
 h1{
   color: #ffffff;
