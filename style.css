@@ -2,6 +2,7 @@ body {
 background-color: rgb(29, 43, 43);
 margin: 0;
 font-family: Arial, sans-serif;
+display: flex;
 }
 .parent{
   display: grid;
