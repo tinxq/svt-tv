@@ -1,5 +1,8 @@
 body{
-background-color: rgb(0, 0, 0) ;  
+background-image: url("photos/svtback.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixeds;
 font-family: Arial, sans-serif;
 display: flex;
 }
