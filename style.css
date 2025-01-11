@@ -5,6 +5,8 @@ background-size: cover;
 background-attachment: fixed;
 font-family: Arial, sans-serif;
 display: flex;
+margin: 0;
+padding: 0;
 }
 .parent{
 display: grid;
@@ -16,6 +18,7 @@ grid-template-areas:
 "container2 container2 container2";
 place-items: center;
 margin: 0px;
+min-width: 100%;
 }
 .sidebar{ 
 background-color: #4d494f3c;
