@@ -8,6 +8,7 @@
 <link rel="icon" href="/photos/logo.webp" type="image/x-icon">
 </head>
 <body>
+<script src="javaScript.js"></script>
 <div class="parent">
 <div class="title">
 <h1>SEVENTEEN TV </h1>
@@ -85,11 +86,12 @@ tournament</p>
     members' own ideas</p>
 </div>
 </div>
-<form class="sidebar-left" action="javaScript.js" id="who">
+<div class="sidebar-left">
 <h1>add number</h1>
-<input type="number" name="number" id="num">
-<input type="button" name="button" id="v" value="who">
-</form>
+<input type="text" name="number" id="num">
+<input type="button" id="v"  value="who" onclick="runcount()"></button>
+<div id="output"></div>
+</div>
 <form class="sidebar-right"></form>
 <div class="miniteen">
 <img src="photos/dino.webp" alt="">
