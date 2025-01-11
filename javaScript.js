@@ -28,7 +28,7 @@ function count(n, m) {
         ,"/photos/shu.jpg"
         ,"/photos/jun.jpg"
         ,"/photos/hosh.jpg"
-        ,"/photos/won.jpg"
+        ,"seven-caratland\photos\won.jpg"
         ,"/photos/wozi.jpg"
       
     ];
