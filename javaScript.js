@@ -23,13 +23,13 @@ function count(n, m) {
     var b = document.getElementById("num").value; 
     
     var seventeen = ["non",
-        "/photos/sc.jpg"
-        ,"/photos/han.jpg"
-        ,"/photos/shu.jpg"
-        ,"/photos/jun.jpg"
-        ,"/photos/hosh.jpg"
-        ,"seven-caratland\photos\won.jpg"
-        ,"/photos/wozi.jpg"
+        "photos/sc.jpg"
+        ,"photos/han.jpg"
+        ,"photos/shu.jpg"
+        ,"photos/jun.jpg"
+        ,"photos/hosh.jpg"
+        ,"photos/won.jpg"
+        ,"photos/wozi.jpg"
       
     ];
     count(b, seventeen); 
