@@ -1,5 +1,5 @@
 body{
-background-image: url("photos/svtback.jpg");
+background-image: url("photos/galaxy.gif");
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
@@ -39,14 +39,18 @@ box-shadow:0px 0px 40px rgb(130, 117, 117);
 
 }
 .card img {
-  width: 120px;
-  margin-top: 1px;
+width: 120px;
+margin-top: 1px;
 } 
 .title{
 grid-area: title;
 
 }
 .container {
+background-image: url("photos/bag2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
 grid-area:container ;
 display: flex;
 flex-wrap: wrap;
@@ -62,31 +66,32 @@ border-radius: 45px;
 height: 300px;
 width: 200px;
 margin: 20px;
-background: rgba(1, 9, 15, 0.466);
+background: rgba(146, 175, 197, 0.466);
 text-align: center;
 padding: 20px;
 transform: scale(1.05);
 overflow: hidden;
 }
 
-.sidebar-left  {
-  grid-area: sidebar-left;
-  background-color: rgba(21, 0, 24, 0.804);
-  width: 320px;
-  height: 360px;
-  justify-content: center;
-  align-items: center;
-  display: flex ;
-  flex-direction: column;
-  gap: 30px;
-  border-radius: 10%;
-  }
-  .sidebar-right{
-  background-color: #c9d2b45b;
-  grid-area: sidebar-right;
-  width: 320px;
-  height:360px ; 
-  }
+.sidebar-left{
+grid-area: sidebar-left;
+background-color: rgba(55, 48, 56, 0.279);
+width: 320px;
+height: 360px;
+justify-content: center;
+align-items: center;
+display: flex ;
+flex-direction: column;
+gap: 30px;
+border-radius: 10%;
+}
+.sidebar-right{
+background-color: #59496154;
+grid-area: sidebar-right;
+width: 320px;
+height:360px ;
+border-radius: 10%;
+}
 
 .miniteen{
 grid-area: miniteen;
@@ -94,15 +99,15 @@ background-color: rgba(57, 30, 70, 0.244);
 width: 420px;
 height:360px;
 place-items: center;
-
+border-radius: 10%;
 }
 .miniteen img {
-  width: 85px;
-  margin-right: 15px;
-  transition: transform 5s ease;
-  } 
+width: 85px;
+margin-right: 15px;
+transition: transform 1s ease;
+} 
 .miniteen img:hover{
- transform: scale(1.9);
+ transform: scale(1.1);
 }
 
 .card:hover {
@@ -149,13 +154,13 @@ text-align: center;
 
 }
 h1{
-  color: #ffffff;
-  font-size: 1.5em;
-  margin: 0 0 10px;
-  padding: 0px;
-  border-radius: 10px;
-  transition: color 0.3s ease, transform 0.3s ease;
-  text-align: center;
+color: #ffffff;
+font-size: 1.5em;
+margin: 0 0 10px;
+padding: 0px;
+border-radius: 10px;
+transition: color 0.3s ease, transform 0.3s ease;
+text-align: center;
  
 }
 #num{
@@ -173,13 +178,17 @@ border-color: rgba(45, 134, 198, 0.708);
 color: white;
 }
 .container2 {
-  grid-area:container2 ;
-  display: flex ;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  max-width: 1300px;
-  margin: auto;
-  padding: 20px;
-  }
+background-image: url("photos/svtback.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+grid-area:container2 ;
+display: flex ;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+max-width: 1300px;
+margin: auto;
+padding: 20px;
+}
  
