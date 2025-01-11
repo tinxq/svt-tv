@@ -37,7 +37,6 @@ function count(n, m) {
         ,"photos/dk.jpg"
         ,"photos/kwani.jpg"
         ,"photos/vernon.jpg"
-        ,"photos/kwani.jpg"
         ,"photos/leechan.jpg"
     ];
     count(b, seventeen); 
