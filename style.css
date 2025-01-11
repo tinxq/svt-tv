@@ -71,7 +71,7 @@ overflow: hidden;
 
 .sidebar-left  {
   grid-area: sidebar-left;
-  background-color: rgba(109, 26, 118, 0.301);
+  background-color: rgba(21, 0, 24, 0.804);
   width: 320px;
   height: 360px;
   justify-content: center;
@@ -79,6 +79,7 @@ overflow: hidden;
   display: flex ;
   flex-direction: column;
   gap: 30px;
+  border-radius: 10%;
   }
   .sidebar-right{
   background-color: #c9d2b45b;
@@ -159,12 +160,12 @@ h1{
 }
 #num{
 border-radius: 50px;
-border-color: rgb(143, 58, 167);
+border-color: rgb(110, 99, 155);
 border-width: 5px;
 }
 #v{
 border-radius: 5px;
-border-color: rgba(62, 92, 113, 0.708);
+border-color: rgba(45, 134, 198, 0.708);
 }
 
 #output{
