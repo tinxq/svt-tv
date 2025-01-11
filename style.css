@@ -12,7 +12,8 @@ grid-template-areas:
 "title title title"
 " sidebar sidebar sidebar" 
 "container container container"
-" sidebar-left miniteen sidebar-right ";
+" sidebar-left miniteen sidebar-right "
+"container2 container2 container2";
 place-items: center;
 margin: 0px;
 }
@@ -170,3 +171,14 @@ border-color: rgba(62, 92, 113, 0.708);
 
 color: white;
 }
+.container2 {
+  grid-area:container2 ;
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1300px;
+  margin: auto;
+  padding: 20px;
+  }
+ 
