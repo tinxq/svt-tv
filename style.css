@@ -80,7 +80,7 @@ overflow: hidden;
 grid-area: sidebar-left;
 background-color: rgba(55, 48, 56, 0.279);
 width: 320px;
-height: 360px;
+height: 450px;
 justify-content: center;
 align-items: center;
 display: flex ;
@@ -99,7 +99,7 @@ justify-content: center;
 align-items: center;
 grid-area: sidebar-right;
 width: 450px;
-height:360px ;
+height:460px ;
 border-radius: 5%;
 box-shadow: 1px 1px 10px greenyellow;
 }
@@ -107,9 +107,11 @@ box-shadow: 1px 1px 10px greenyellow;
 grid-area: miniteen;
 background-color: rgba(57, 30, 70, 0.244);
 width: 420px;
-height:360px;
+height:450px;
 place-items: center;
 border-radius: 10%;
+display: flex;
+flex-direction: column;
 }
 .miniteen img {
 width: 85px;
@@ -184,7 +186,6 @@ border-color: rgba(45, 134, 198, 0.708);
 }
 
 #output{
-
 color: white;
 }
 .container2 {
@@ -250,4 +251,7 @@ to{
 
 }
 
+}
+.output2{
+color: #ffffff;
 }

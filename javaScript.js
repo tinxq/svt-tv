@@ -41,3 +41,13 @@ function count(n, m) {
     ];
     count(b, seventeen); 
   }
+  function hi(message) {
+    
+  const outputDiv = document.querySelector('.output2');
+  outputDiv.textContent = message;
+  outputDiv.style.display = 'block';
+
+  setTimeout(() => {
+    outputDiv.style.display = 'none';
+  }, 3000);
+}
