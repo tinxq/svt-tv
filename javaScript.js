@@ -49,5 +49,5 @@ function count(n, m) {
 
   setTimeout(() => {
     outputDiv.style.display = 'none';
-  }, 3000);
+  }, 5000);
 }
