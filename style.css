@@ -1,8 +1,5 @@
 body{
-background-image: url("photos/galaxy.gif");
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
+background-color: black;
 font-family: Arial, sans-serif;
 display: flex;
 margin:0%;
