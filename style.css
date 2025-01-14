@@ -11,7 +11,7 @@ grid-template-areas:
 "title title title"
 " sidebar sidebar sidebar" 
 "container container container"
-" sidebar-left miniteen sidebar-right "
+" sidebar-left  sidebar-right miniteen  "
 "container2 container2 container2";
 place-items: center;
 margin: 0px;
