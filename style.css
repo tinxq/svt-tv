@@ -12,7 +12,7 @@ grid-template-areas:
 " sidebar sidebar sidebar" 
 "container container container"
 " sidebar-left  sidebar-right miniteen  "
-"container2 container2 container2";
+;
 place-items: center;
 margin: 0px;
 min-width: 100%;
@@ -181,21 +181,6 @@ border-color: rgba(37, 37, 37, 0.374);
 
 #output{
 color: white;
-}
-.container2 {
-background-image: url("photos/con2bag.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
-grid-area:container2 ;
-display: flex ;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-max-width: 1300px;
-margin: auto;
-padding: 20px;
-margin-top: 3%;
 }
 .button {
   margin-top: 30px;
