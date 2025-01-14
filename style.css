@@ -5,8 +5,8 @@ background-size: cover;
 background-attachment: fixed;
 font-family: Arial, sans-serif;
 display: flex;
-margin: 0;
-padding: 0;
+margin:0%;
+padding:0%;
 }
 .parent{
 display: grid;
@@ -21,7 +21,6 @@ margin: 0px;
 min-width: 100%;
 }
 .sidebar{ 
-background-color: #4d494f3c;
 display: flex; 
 grid-area:sidebar;
 text-align: center;
@@ -31,8 +30,10 @@ place-items: center;
 }
  .sidebar img {
 width: 120px;
+height: 120px ;
 margin-bottom: 1px;
-margin: 20px;
+object-fit: cover;
+margin: 30px;
 border-radius:300px;
 transition: transfom 0.3s ease;
 } 
@@ -65,11 +66,11 @@ padding: 20px;
 }
 
 .card {
-border-radius: 45px;
+
 height: 300px;
 width: 200px;
 margin: 20px;
-background: rgba(146, 175, 197, 0.466);
+background: rgba(0, 0, 0, 0.731);
 text-align: center;
 padding: 20px;
 transform: scale(1.05);
@@ -86,7 +87,7 @@ align-items: center;
 display: flex ;
 flex-direction: column;
 gap: 30px;
-border-radius: 10%;
+margin-left: 4px;
 }
 .sidebar-right{
 background-image: url("photos/bagside.jpg");
@@ -98,9 +99,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 grid-area: sidebar-right;
-width: 450px;
-height:460px ;
-border-radius: 5%;
+width: 440px;
+height:450px ;
 box-shadow: 1px 1px 10px greenyellow;
 }
 .miniteen{
@@ -109,7 +109,6 @@ background-color: rgba(57, 30, 70, 0.244);
 width: 420px;
 height:450px;
 place-items: center;
-border-radius: 10%;
 display: flex;
 flex-direction: column;
 }
@@ -141,7 +140,6 @@ transition: color 0.3s ease, transform 0.3s ease;
 text-align: center;
 margin-left: 40px;
 margin-right: 40px;
-text-shadow: 0px 0px 5px #cf06cffa;
 }
 
 .card p{
@@ -176,13 +174,12 @@ text-align: center;
  
 }
 #num{
-border-radius: 50px;
 border-color: rgb(110, 99, 155);
-border-width: 5px;
+border-style: solid;
 }
 #v{
 border-radius: 5px;
-border-color: rgba(45, 134, 198, 0.708);
+border-color: rgba(37, 37, 37, 0.374);
 }
 
 #output{
