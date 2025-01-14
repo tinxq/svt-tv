@@ -51,4 +51,3 @@ function count(n, m) {
     outputDiv.style.display = 'none';
   }, 5000);
 }
-
