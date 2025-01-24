@@ -241,8 +241,7 @@ color: #ffffff;
 }
 .parts{
 display: flex;
-gap: 20px;
-margin-top: 30%;
+gap:20px;
 margin-left: 30%;
 }
 .container3{
