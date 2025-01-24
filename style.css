@@ -1,8 +1,5 @@
 body{
-background-image: url("photos/bag2.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
+background-color: black;
 font-family: Arial, sans-serif;
 display: flex;
 margin:0%;
@@ -16,7 +13,8 @@ grid-template-areas:
 " sidebar sidebar sidebar" 
 "container container container"
 " sidebar-left  sidebar-right miniteen  "
-"container3 container3 container3"
+"container3 container3 songs-game"
+
 ;
 place-items: center;
 margin: 0px;
@@ -24,11 +22,16 @@ min-width: 100%;
 }
 .sidebar{ 
 display: flex; 
+flex-direction: column;
 grid-area:sidebar;
 text-align: center;
 width: 1200px;
 padding: 40px;
 place-items: center;
+}
+.going{
+
+display: flex; 
 }
  .sidebar img {
 width: 120px;
@@ -44,6 +47,7 @@ transform: scale(1.2);
 box-shadow:0px 0px 40px rgb(130, 117, 117);
 
 }
+
 .card img {
 width: 150px;
 margin-top: 1px;
@@ -51,8 +55,10 @@ height: 150px;
 object-fit:cover;
 } 
 .title{
-grid-area: title;
-
+grid-area: title ;
+text-align: center;
+justify-content: center;
+align-items: center;
 }
 .container {
 grid-area:container ;
@@ -280,4 +286,22 @@ article img{
 .container3 .title{
 text-align: center;
 text-shadow:0px 0px 3px rgb(0, 0, 0) ;
+}
+
+.songs-game{
+grid-area: songs-game;
+display: flex;
+flex-direction: column;
+}
+#btn{
+ width: 100px;
+margin-left: 30%;
+}
+#song{
+margin-top: 10%;
+font-size: larger;
+font-weight: bolder;
+background-color: rgb(41, 41, 14);
+color: #cbafaf;
+
 }
