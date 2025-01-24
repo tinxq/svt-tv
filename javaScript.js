@@ -41,6 +41,7 @@ function runcount() {
   ];
   count(b, seventeen); 
 }
+
 function hi(message) {
 
 const outputDiv = document.querySelector('.output2');
@@ -49,5 +50,5 @@ outputDiv.style.display = 'block';
 
 setTimeout(() => {
   outputDiv.style.display = 'none';
-}, 5000);
+}, 8000);
 }
