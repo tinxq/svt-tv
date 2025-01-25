@@ -76,7 +76,7 @@ padding: 20px;
 height: 300px;
 width: 200px;
 margin: 20px;
-background: rgba(0, 0, 0, 0.731);
+background: rgb(2, 107, 168);
 text-align: center;
 padding: 20px;
 transform: scale(1.05);
@@ -128,7 +128,7 @@ transition: transform 1s ease;
 }
 
 .card:hover {
-background-color: rgba(0, 0, 0, 0.685);
+background-color: rgb(229, 109, 165);
 transform: scale(1.05);
 background-image: url("");
 background-size: cover;
@@ -146,10 +146,11 @@ transition: color 0.3s ease, transform 0.3s ease;
 text-align: center;
 margin-left: 40px;
 margin-right: 40px;
+
 }
 
 .card p{
-color: #ffffff;
+color: #f9e8e8;
 font-size: 0.80em;
 border-radius: 10px;
 transition: color 0.3s ease, transform 0.3s ease;
@@ -161,6 +162,7 @@ font-size: 3em;
 text-align: center;
 text-shadow:0px 0px 3px rgb(0, 0, 0) ;
 margin-top: 10%;
+
 }
 p{
 
@@ -243,7 +245,10 @@ to{
 
 }
 .output2{
-color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  
 }
 .parts{
 display: flex;
