@@ -55,8 +55,8 @@ setTimeout(() => {
 function songs() {
   var songs = [
     "Hug", "Fronting", "Mansae", "When I Grow Up", "OMG", "Rock", "Pretty U", "Still Lonely", 
-    "Hit Song", "Say Yes", "Drift Away", "Adore U (Vocal Team)", "Mansae (Hip-Hop Team)", 
-    "Shining Diamond (Performance Team)", "Love Letter", "Thanks", "Clap", "Don't Wanna Cry", 
+    "Hit Song", "Say Yes", "Drift Away", "Adore U ", "Mansae", 
+    "Shining Diamond ", "Love Letter", "Thanks", "Clap", "Don't Wanna Cry", 
     "Very Nice", "Home", "Fallin' Flower", "Snap Shoot", "Left & Right", "Fear", "Rock With You", 
     "Hot", "Darling", "Shadow", "March", "World"
   ];
