@@ -65,7 +65,7 @@ function songs() {
   const randomName = songs[randomIndex];
 
   const songDisplay = document.getElementById("song");
-  songDisplay.textContent = randomName; // Display the song name
+  songDisplay.textContent = randomName;
 }
 
 function randomi() {

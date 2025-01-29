@@ -308,12 +308,28 @@ flex-direction: column;
 #btn{
  width: 100px;
 margin-left: 30%;
+background-color: cadetblue;
+margin-bottom: 20%;
+margin-top: 20%;
 }
 #song{
 margin-top: 10%;
 font-size: larger;
 font-weight: bolder;
-background-color: rgb(41, 41, 14);
-color: #cbafaf;
 
+color: #cbafaf;
+animation: 1s infinite song ;
 }
+
+
+@keyframes song {
+
+  from{ 
+  text-shadow: 2px 2px 10px greenyellow;
+
+  }
+  
+  to{
+    text-shadow: 2px 2px 10px rgb(47, 71, 255);
+  
+  }}
