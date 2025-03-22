@@ -13,7 +13,7 @@ if (n == svt) {
   img.style.borderRadius = "50%";
   img.style.objectFit ="cover";
 
-  output.appendChild(img); 
+  output.appendChild(img);
   return;
 }
   }
