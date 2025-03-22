@@ -76,11 +76,12 @@ padding: 20px;
 height: 300px;
 width: 200px;
 margin: 20px;
-background: rgb(2, 107, 168);
 text-align: center;
+background-color: #e69ace6e;
 padding: 20px;
 transform: scale(1.05);
 overflow: hidden;
+border-radius: 10%;
 }
 
 .sidebar-left{
