@@ -7,7 +7,7 @@ if (n == svt) {
  
   var img = document.createElement("img");
   img.src = m[svt];
-  img.alt = "Seventeen member"; 
+  img.alt = " members"; 
   img.style.width = "120px"; 
   img.style.height ="120px"
   img.style.borderRadius = "50%";
