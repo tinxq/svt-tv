@@ -1,5 +1,5 @@
 body{
-background-color: rgb(47, 0, 255);
+background-color: rgb(201, 195, 227);
 font-family: Arial, sans-serif;
 display: flex;
 margin:0%;
@@ -39,7 +39,7 @@ height: 120px ;
 margin-bottom: 1px;
 object-fit: cover;
 margin: 30px;
-border-radius:300px;
+
 transition: transfom 0.3s ease;
 } 
 .sidebar img:hover {
