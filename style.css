@@ -97,7 +97,7 @@ gap: 30px;
 margin-left: 4px;
 }
 .sidebar-right{
-background-image: url("photos/bagside.jpg");
+background-image: url("photos/beam.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: 50%;
@@ -215,7 +215,7 @@ color: white;
   background-color: #218838;
 }
 .sidebar-right img{
- width:120px;
+ width:180px;
  height: auto;
  margin: 10px;
  animation: 2s booseoksoon infinite;
@@ -317,63 +317,9 @@ margin-top: 20%;
 margin-top: 10%;
 font-size: larger;
 font-weight: bolder;
-
-color: #cbafaf;
+background-color: beige;
+color: #000000;
 animation: 1s infinite song ;
 }
 
 
-@keyframes song {
-
-  from{ 
-  text-shadow: 2px 2px 10px greenyellow;
-
-  }
-  
-  to{
-    text-shadow: 2px 2px 10px rgb(47, 71, 255);
-  
-  }}
-  .gallery-container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.gallery {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-.slide {
-    min-width: 100%;
-    display: none;
-}
-.slide img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-.slide.active {
-    display: block;
-}
-.arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 24px;
-    border-radius: 5px;
-}
-#prev {
-    left: 10px;
-}
-#next {
-    right: 10px;
-}
