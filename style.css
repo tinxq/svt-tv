@@ -1,10 +1,13 @@
 body{
-background-color: rgb(201, 195, 227);
 font-family: Arial, sans-serif;
 display: flex;
 margin:0%;
 padding:0%;
 flex-wrap:wrap-reverse;
+background-image: url("photos/bag2.jpg") ;
+background-attachment:fixed;
+background-position: center;
+background-size: cover;
 }
 .parent{
 display: grid;
@@ -39,7 +42,7 @@ height: 120px ;
 margin-bottom: 1px;
 object-fit: cover;
 margin: 30px;
-
+border-radius: 50%;
 transition: transfom 0.3s ease;
 } 
 .sidebar img:hover {
@@ -77,11 +80,11 @@ height: 300px;
 width: 200px;
 margin: 20px;
 text-align: center;
-background-color: #e69ace6e;
+background-color: #15616d;
 padding: 20px;
 transform: scale(1.05);
 overflow: hidden;
-border-radius: 30%;
+border-radius: ;
 }
 
 .sidebar-left{
@@ -129,11 +132,12 @@ transition: transform 1s ease;
 }
 
 .card:hover {
-background-color: rgb(229, 109, 165);
+background-color: #1e6091;
 transform: scale(1.05);
 background-image: url("");
 background-size: cover;
 background-position:center ;
+border-bottom: 9px solid #0879d0 ;
 }
 
 
